@@ -8,7 +8,7 @@ const myTableName = "my_storage_table";
  */
 export function ping(): void 
 {
-    Notifier.sendString("pongPong");
+    Notifier.sendString("pongPong: " + Date.now().toString());
 }
 
 /**
